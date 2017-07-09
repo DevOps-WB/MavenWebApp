@@ -15,7 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
   <build>
     <finalName>loan</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>jenkins</id>
+      <name>jenkins</name>
+      <url>http://localhost:8081/nexus/content/repositories/jenkins/</url>
+    </repository>
+  </distributionManagement>
 </project>
