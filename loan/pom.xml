@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement>
+    <repository>
+      <id>sample-repository</id>
+      <name>samp-repository</name>
+      <url>http://localhost:8081/nexus/content/repositories/sample-repository/</url>
+    </repository>
+	</distributionManagement>
   <build>
     <finalName>loan</finalName>
   </build>
